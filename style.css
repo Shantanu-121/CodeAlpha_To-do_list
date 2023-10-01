@@ -8,56 +8,53 @@ body {
 button {
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: larger;
+
 }
- 
- .heading {
+
+.heading {
     background: url(https://png.pngtree.com/background/20230519/original/pngtree-wallpapers-free-on-computers-and-mobiles-for-desktops-picture-image_2668518.jpg);
-    height: 250px;
-        display: flex;
-        flex-direction: column;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
-        margin-top: 0px;
+    margin-top: 20px;
+    border-radius: 0.5cm;
     margin-bottom: 30px;
-    width: auto;
-        border-radius: 0px;
-    }
+    width: max-content;
+}
 
 .heading h1 {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: xxx-large;
+    font-size: xx-large;
     padding-left: 30px;
     padding-right: 30px;
-    }
+}
 
 .subject {
-        height: 150px;
     margin-top: 30px;
     background-color: #3F2E3E;
     border-radius: 0.5cm;
-    width: auto;
+    width: max-content;
     padding: 20px;
     margin-bottom: 30px;
 }
 
-.  .subject h2 {
+.subject h2 {
     margin-top: 0px;
     margin-bottom: 20px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: xxx-large;
 }
 
 .subject input {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border: 0px;
     border-radius: 0.5cm;
-    margin-right: 50px;
+    margin-right: 10px;
     margin-left: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 .subject button {
@@ -65,24 +62,22 @@ button {
     border-radius: 0.5cm;
     cursor: pointer;
     font-weight: bolder;
-    padding: 15px;
 }
 
- .content {
+.content {
     width: max-content;
     padding: 20px;
     background-color: #6C3428;
     border-radius: 0.5cm;
     color: white;
-        padding: 20px;
 }
 
 .content li {
-         font-weight: bold;
+    font-weight: bold;
+    font-size: larger;
     margin-top: 10px;
     margin-bottom: 10px;
-        font-size: x-large;
-    }
+}
 
 .content button {
     border: 0px;
@@ -92,8 +87,6 @@ button {
 
 .content h1 {
     margin: 0px;
-            font-size: xxx-large;
-
 }
 
 ul {
@@ -104,12 +97,10 @@ ul {
 }
 
 .delete {
-        background-color: #9A3B3B;
+    background-color: #9A3B3B;
     margin-left: 200px;
     margin-right: 10px;
-        font-size: larger;
-        padding: 20px;
-    }
+}
 
 .cut {
     margin-right: 20px;
@@ -131,11 +122,6 @@ ul {
     position: relative;
     top: 42vh;
 }
-
-.edit {
-        font-size: larger;
-        padding: 20px;
-    }
 
 .footer h4 {
     margin: 3px;
