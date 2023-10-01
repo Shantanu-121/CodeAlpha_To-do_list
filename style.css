@@ -130,16 +130,23 @@ ul {
 @media (max-width: 1200px) {
     .heading {
     background: url(https://png.pngtree.com/background/20230519/original/pngtree-wallpapers-free-on-computers-and-mobiles-for-desktops-picture-image_2668518.jpg);
-    height: 150px;
+    height: 250px;
+        display: flex;
+        flex-direction: column;
     color: white;
     margin-top: 20px;
-    border-radius: 0.5cm;
     margin-bottom: 30px;
-    width: max-content;
+    width: auto;
     }
-
     
-
+    .heading h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: xxx-large;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+    
     button {
         font-size: larger;
     }
@@ -155,7 +162,7 @@ ul {
     body {
         background: url(https://i.pinimg.com/originals/aa/96/97/aa9697a3f7a61389675b8dc109518753.gif);
         background-repeat: repeat;
-        background-size: 5000px;
+        background-size: 2900px;
     }
 
     .content h1 {
