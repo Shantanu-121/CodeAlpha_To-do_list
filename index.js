@@ -15,6 +15,7 @@ function addTask() {
     else {
         var e = document.createElement("li");
         e.innerHTML = "<input type='checkbox' class='cut'>" + inputBox.value + "</input>";
+        e.setAttribute("id", "");
         listContainer.appendChild(e);
         var t = document.createElement("button");
         t.innerHTML = "Delete";
@@ -24,15 +25,6 @@ function addTask() {
         n.innerHTML = "Edit";
         e.appendChild(n);
         n.setAttribute("class", "edit");
-        $(".cut").on("click", function (event) {
-            var checkedCheck = this.parentElement.getAttribute("id");
-            if (checkedCheck === "done") {
-                this.parentElement.setAttribute("id", "");
-            }
-            else {
-                this.parentElement.setAttribute("id", "done");
-            }
-        });
     }
     inputBox.value = "";
     saveData();
@@ -46,6 +38,17 @@ function displayData() {
 listContainer.addEventListener("click", function (e) {
     if ("delete" === e.target.className) {
         e.target.parentElement.remove();
+        saveData();
+    }
+});
+listContainer.addEventListener("click", function (e) {
+    if ("cut" === e.target.className) {
+        if (e.target.parentElement.getAttribute("id") === "") {
+            e.target.parentElement.setAttribute("id", "done");
+        }
+        else {
+            e.target.parentElement.setAttribute("id", "");
+        }
         saveData();
     }
 });
