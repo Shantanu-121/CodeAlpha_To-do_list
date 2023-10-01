@@ -134,9 +134,6 @@ ul {
     .heading {
         background: url(https://png.pngtree.com/background/20230519/original/pngtree-wallpapers-free-on-computers-and-mobiles-for-desktops-picture-image_2668518.jpg);
         height: max-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         color: white;
         margin-left: 20px;
         margin-right: 20px;
