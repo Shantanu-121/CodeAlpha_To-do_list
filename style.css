@@ -176,10 +176,12 @@ ul {
     margin-left: 200px;
     margin-right: 10px;
         font-size: larger;
+        padding: 20px;
     }
 
     .edit {
         font-size: larger;
+        padding: 20px;
     }
     .subject {
         height: 150px;
@@ -215,5 +217,13 @@ ul {
     cursor: pointer;
     font-weight: bolder;
     padding: 15px;
+}
+    .content {
+    width: max-content;
+    padding: 20px;
+    background-color: #6C3428;
+    border-radius: 0.5cm;
+    color: white;
+        padding: 20px;
 }
 }
