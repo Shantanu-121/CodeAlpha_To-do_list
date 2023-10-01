@@ -134,9 +134,9 @@ ul {
         display: flex;
         flex-direction: column;
     color: white;
-    margin-top: 20px;
     margin-bottom: 30px;
     width: auto;
+        border-radius: 0px;
     }
     
     .heading h1 {
@@ -151,18 +151,12 @@ ul {
         font-size: larger;
     }
 
-    .subject h2 {
-           margin-top: 0px;
-    margin-bottom: 20px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: xx-large;
-    }
-
+    
     body {
         background: url(https://i.pinimg.com/originals/aa/96/97/aa9697a3f7a61389675b8dc109518753.gif);
         background-repeat: repeat;
         background-size: 2900px;
+        margin: 0px;
     }
 
     .content h1 {
@@ -186,4 +180,39 @@ ul {
     .edit {
         font-size: larger;
     }
+    .subject {
+        height: 150px;
+    margin-top: 30px;
+    background-color: #3F2E3E;
+    border-radius: 0.5cm;
+    width: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+    .subject h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xxx-large;
+}
+
+.subject input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px;
+    border-radius: 0.5cm;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.subject button {
+    border: 0px;
+    border-radius: 0.5cm;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 20px;
+}
 }
