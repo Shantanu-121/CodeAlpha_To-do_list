@@ -1,0 +1,182 @@
+body {
+    margin: 0px;
+    background: url(https://i.pinimg.com/originals/aa/96/97/aa9697a3f7a61389675b8dc109518753.gif);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.heading {
+    background: url(https://png.pngtree.com/background/20230519/original/pngtree-wallpapers-free-on-computers-and-mobiles-for-desktops-picture-image_2668518.jpg);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    border-radius: 0.5cm;
+    margin-bottom: 30px;
+    width: max-content;
+}
+
+.heading h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: xx-large;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.subject {
+    margin-top: 30px;
+    background-color: #3F2E3E;
+    border-radius: 0.5cm;
+    width: max-content;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.subject h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subject input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px;
+    border-radius: 0.5cm;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.subject button {
+    border: 0px;
+    border-radius: 0.5cm;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.content {
+    width: max-content;
+    padding: 20px;
+    background-color: #6C3428;
+    border-radius: 0.5cm;
+    color: white;
+}
+
+.content li {
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content button {
+    border: 0px;
+    border-radius: 0.5cm;
+    font-weight: bold;
+}
+
+.content h1 {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    padding-top: 0.3px;
+}
+
+.delete {
+    background-color: #9A3B3B;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+
+.cut {
+    margin-right: 20px;
+}
+
+#done {
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+}
+
+.footer {
+    width: max-content;
+    border-radius: 0.5cm;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    top: 42vh;
+}
+
+.footer h4 {
+    margin: 3px;
+}
+
+@media (max-width: 1200px) {
+    body{
+        margin: 10px;
+    }
+    .heading {
+        background: url(https://png.pngtree.com/background/20230519/original/pngtree-wallpapers-free-on-computers-and-mobiles-for-desktops-picture-image_2668518.jpg);
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        border-radius: 0.5cm;
+        margin-bottom: 30px;
+        width: max-content;
+    }
+
+    .heading h1 {
+        font-size: 100px;
+    }
+
+    button {
+        font-size: larger;
+    }
+
+    .subject h2 {
+        font-size: xx-large;
+    }
+
+    body {
+        background: url(https://i.pinimg.com/originals/aa/96/97/aa9697a3f7a61389675b8dc109518753.gif);
+        background-repeat: repeat;
+        background-size: 5000px;
+    }
+
+    .content h1 {
+        font-size: xx-large;
+    }
+
+    .content li {
+        font-size: x-large;
+    }
+
+    .delete {
+        font-size: larger;
+    }
+
+    .edit {
+        font-size: larger;
+    }
+}

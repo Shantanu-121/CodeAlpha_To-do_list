@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Libre+Baskerville&family=Lobster&family=Poppins&family=Radley:ital@1&family=Roboto+Mono:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <title>To Do List !</title>
+</head>
+
+<body>
+    <div style="display: flex; align-items: center; flex-direction: column; flex-wrap: wrap;">
+        <div class="heading">
+            <h1></h1>
+        </div>
+    </div>
+    <div style="display: flex; align-items: center; flex-direction: column;">
+        <div class="subject">
+            <h2>Please Add Your Items:</h2>
+            <input type="text" id="input-box" placeholder="New Task">
+            <button onclick="addTask()">ADD</button>
+        </div>
+    </div>
+    <br>
+    <div style="display: flex; align-items: center; flex-direction: column;">
+        <div class="content">
+            <h1>Tasks:</h1>
+            <hr />
+            <ul id="list-container">
+            </ul>
+        </div>
+    </div>
+    <div>
+    </div>
+    <div style="display: flex; align-items: center; flex-direction: column;">
+        <div class="footer">
+            <h4></h4>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
