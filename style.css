@@ -8,7 +8,7 @@ body {
 button {
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    padding: 15px;
 }
 
 .heading {
@@ -27,7 +27,7 @@ button {
 .heading h1 {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: xx-large;
+    font-size: xxx-large;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -46,15 +46,18 @@ button {
     margin-bottom: 20px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
 }
 
 .subject input {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border: 0px;
     border-radius: 0.5cm;
-    margin-right: 10px;
+    margin-right: 50px;
     margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
 }
 
 .subject button {
