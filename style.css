@@ -221,6 +221,7 @@ ul {
     cursor: pointer;
     font-weight: bolder;
     padding: 15px;
+    background-color: wheat;
 }
     .content {
     width: max-content;
